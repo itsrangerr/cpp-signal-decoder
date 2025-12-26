@@ -50,3 +50,23 @@ Sort the remaining array based on the following rules:
 ```text
 n = 10
 Arr = { 4, 3, 9, 12, 5, 16, 25, 4, 13, 8 }
+
+After Step 2 (Remove Noise):
+
+Removed: 4, 9, 16, 25, 4.
+
+Remaining: { 3, 12, 5, 13, 8 } (Size n = 5).
+
+After Step 3 (Sort):
+
+Odds (Ascending): 3, 5, 13
+
+Evens (Descending): 12, 8
+
+Result: { 3, 5, 13, 12, 8 }
+
+After Step 4 (Analysis):
+
+Check: 5^2 + 12^2 = 13^2 (25 + 144 = 169).
+
+Output: Found Pythagorean Triplet: 5, 12, 13
